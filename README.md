@@ -15,3 +15,5 @@ All commands are in the form a verb-noun syntax:
 `Get-Help`  
 ```Get-Help Get-Command```
 
+### Debugging:
+- make sure to install the powershell and bash extension packs in VS Code
