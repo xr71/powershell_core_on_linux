@@ -61,3 +61,7 @@ All commands are in the form a verb-noun syntax:
 - New Var cmdlet
 - `New-Variable -Name myvar -Value 42`
 
+- We can delare object arrays using $myvar = 1,2,3,4
+- We can get date objects $today = (Get-Date).DateTime
+
+
