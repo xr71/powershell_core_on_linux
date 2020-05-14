@@ -35,3 +35,29 @@ All commands are in the form a verb-noun syntax:
     Set-Location env:
     Get-ChildItem
   ```
+
+### Variables
+
+- use \$ sign to declare variables
+- `$hi = "hi"`
+- getting type `$hi.GetType()`
+
+### Built-In or Automatic Variables
+- $_
+- $null
+- $PROFILE
+- $PSVerstionTable
+- $true
+- $false
+- $pwd
+- $Home
+- $host
+- $PID
+
+
+### Working with variable as cmdlets
+- `$loc = Get-Location`
+
+- New Var cmdlet
+- `New-Variable -Name myvar -Value 42`
+
