@@ -65,3 +65,20 @@ All commands are in the form a verb-noun syntax:
 - We can get date objects $today = (Get-Date).DateTime
 
 
+### Strings, Arrays, and Hashtables
+
+- can use single quotes or double quotes
+- string interpolation : rendering strings with vars 
+- `$items = (Get-ChildItem).Count`
+- `Echo there are $items in this folder`
+- Remember that string interpolation only works with double quotes, not single
+
+With arrays, we can just assign multiple values delimited by comma
+```csharp
+$array1 = 2,4,6,10,43,3,78
+```
+
+
+Hashtables are associative arrays or like dictionaries 
+- $hash = @{ "key" = "value" }
+
