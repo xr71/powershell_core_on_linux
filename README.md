@@ -82,3 +82,25 @@ $array1 = 2,4,6,10,43,3,78
 Hashtables are associative arrays or like dictionaries 
 - $hash = @{ "key" = "value" }
 
+
+### Logic Branching
+- if / else statements
+- use -casesensitive in a switch statement since pwsh is by default case insensitive
+- use -Wildcard to match to wildcards in a switch statement
+
+
+### Loops
+- while loops
+- use -lt n
+- do loop will run a while loop at least once
+- for loops syntax: `for($var = 0; $var -lt 5; $var++) {}`
+- can also loop through item in collections
+- foreach () {}
+- we can also use break labels to break to a specific nesting level of the loop
+- or we can use continue to break the current nesting level and resume the outter
+
+### Script Blocks
+- it's a dotnet type
+- {Clear-Host; Write-Output "Hello World"} this will give you an echo of the script block
+- to run a scriptblock, use & in front of it
+
