@@ -104,3 +104,43 @@ Hashtables are associative arrays or like dictionaries
 - {Clear-Host; Write-Output "Hello World"} this will give you an echo of the script block
 - to run a scriptblock, use & in front of it
 
+### Pipline and Functions
+- begin
+- process
+- end
+
+### Writing Advanced Functions
+- like cmdlets
+- [cmdletbinding()]
+- param block
+  - Mandatory $true, $false
+  - HelpMessage ""
+  - [type] param_name
+
+### Working with CSVs
+- Import-Csv cmdlet
+- Export-CSV cmdlet
+
+
+### Common Parameters and Outut Variables
+
+
+### PowerShell module
+- `psm` extension
+- import-module for dependencies
+
+
+### Error Handling
+- try catch finally
+- error is auto saved to $Error variable
+
+
+### Adding Help to our Functions
+- .<help keyword>
+- <# .SYNOPSIS .DESCRIPTION .INPUTS .OUTPUTS #>
+
+
+### Loading Functions from another Script
+- .sourcing
+- . C:\script.ps1
+-
